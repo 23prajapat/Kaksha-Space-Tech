@@ -5,14 +5,15 @@ import Home from './pages/Home';
 
 export default function App() {
   return (
-    <>
+    <div className='w-screen min-h-screen'>
       <Header />
-      <main style={{ minHeight: '80vh', padding: '2rem' }}>
+      <main style={{ minHeight: '80vh', padding: '2rem' , width:'100%'}}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

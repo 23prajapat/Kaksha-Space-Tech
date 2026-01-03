@@ -48,10 +48,10 @@ export default function Home() {
             Email us and we’ll get back to you within one business day.
           </p>
           <a
-            href="mailto:contact@yourdomain.com"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg shadow hover:bg-blue-700 transition"
+            href="mailto:contact@kakshaspacetech.com"
+            className="inline-block bg-blue-600 !text-white px-8 py-3 rounded-lg shadow hover:bg-blue-700 transition"
           >
-            contact@yourdomain.com
+            contact@kakshaspacetech.com
           </a>
         </div>
       </section>
